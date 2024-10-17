@@ -1,0 +1,71 @@
+//Validation Error Messages
+"empty_err_msg" = "%@ field can't be empty";
+"invalid_err_msg" = "Invalid %@ format";
+"invalid_with_reason_err_msg" = "Invalid %@. %@";
+"password_not_matched" = "%@ and %@ is not matched.";
+"invalid_password" = "Minimum 8 characters at least 1 Alphabet, 1 Number and 1 Special Character";
+"email_err" = "Please enter valid email & cannot be empty";
+
+//Remote Request Error Messages
+"unexpected_error" = "Unexpected error: if this problem continues, please contact support";
+"parse_error_message" = "We encountered a problem interpreting the response from the server. Support has been notified. Contact support for assistance if the problem continues. Parse error is: %@";
+"data_not_parseable_to_string" = "Response data not parseable to string";
+"server_err" = "The server encountered an error handling this request. Support has been notified.";
+"must_be_logged_in_to_access_this" = "You must be logged in to access this";
+"something_went_wrong" = "Something went wrong";
+"timed_out" = "The request timed out.!";
+"null_response" = "Null Response";
+"null_data_in_response" = "Null data in api response or invalid data format";
+"null_url" = "Null URL";
+"unable_to_generate_data_from_model" = "unable to generate data from model";
+"null_request_param_data" = "Seem you set requestParams.contentType = data, but you forgot to pass requestParams.requestModelData. Please make model data via using ParamsDataUtil.generateModelData(model) and then set into requestModelData.";
+"null_url_request" = "Either the given endpoint is invalid or please revalidate APIRequestURL.generateRequestURL(requestParams)";
+"null_authorization_value" = "You appear to have forgotten to specify authorizationTypeValue, please produce authorizationTypeValue using APIRequestAuthorizationType.value(type:.bearerToken). Then insert it into the request header.";
+"failure_api_response" = "Please check ApiRequestResponse value on Debug console";
+"remote_request_body_params_error" = "Remote Request Body Params Error";
+
+//Remote Request Response Error Messages
+"user_authorization_invalid_credentials" = "User Authorization Request";
+
+//Internet Connectivity Error Messages
+"connectivity_err" = "Something went wrong ! \n Please Check your internet Connection or Try again later.";
+"no_internet_connection" = "No Internet Connection";
+"device_connected_with_internet_warning" = "Make sure your device is connected to the internet.";
+
+// Success Messages
+"save_purchaser_details" = "Save Purchaser Details";
+"your_given_details_saved_successfully" = "Your provided information has been saved successfully.";
+
+//Permission Error Messages
+"not_determined" = "Not Determined";
+"not_allow" = "Not Allow";
+"allow" = "Allow";
+"restricted" = "Restricted";
+"allow_when_in_ use" = "Allow when in use";
+"setting_problem" = "Please try again, for the same please goes into settings.";
+
+//DateUtil
+"last_hour" = "Last Hour";
+"today" = "Today";
+"yesterday" = "Yesterday";
+"this_week" = "This Week";
+"time" = "Time";
+"error_date_range_selection" = "From date should be less than To date";
+"years_ago" = "%@ years ago";
+"years_days_ago" = "%@ years %@ days ago";
+"years_days_in_future" = "%@ years %@ days in the future";
+"years_in_future" = "%@ years in the future ";
+
+// Interfaces
+
+// Empty Error Message
+"given_info_plist_not_found" = "Unable to locate Info.plist.";
+
+//General
+"dismiss" = "Dismiss";
+"logout_msg" = "Are you sure you want to logout?";
+"yes" = "Yes";
+"no" = "No";
+"no_further_information_available" = "No further information is available at this time";
+"update_interface_title" = "Update interface title";
+"delete_account_msg" = "Are you sure you want to delete your account?";

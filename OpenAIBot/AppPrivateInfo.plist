@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdHoc_Profile</key>
+	<string></string>
+	<key>App_Store_Profile</key>
+	<string></string>
+	<key>Development_X_API_Key</key>
+	<string></string>
+	<key>QATesting_Base_URL</key>
+	<string></string>
+	<key>QATesting_X_API_Key</key>
+	<string></string>
+	<key>App_Identifier</key>
+	<string>com.techwinlabs.OpenAIBot</string>
+	<key>App_Name</key>
+	<string>OpenAIBot</string>
+	<key>App_Environment</key>
+	<dict>
+		<key>Local</key>
+		<false/>
+		<key>QATesting</key>
+		<false/>
+		<key>BetaTesting</key>
+		<false/>
+		<key>Development</key>
+		<true/>
+		<key>Production</key>
+		<false/>
+	</dict>
+	<key>Development_Base_URL</key>
+	<string></string>
+	<key>Production_Base_URL</key>
+	<string></string>
+	<key>Media_Load_Base_URL</key>
+	<string></string>
+	<key>App_Store_ID</key>
+	<string></string>
+	<key>Google_Services_Api_Key</key>
+	<string></string>
+	<key>OpenAI_API_Key</key>
+	<string></string>
+	<key>OpenAI_API_Base_URL</key>
+	<string>https://api.openai.com/v1</string>
+	<key>OpenAI_Assistant</key>
+	<string></string>
+</dict>
+</plist>

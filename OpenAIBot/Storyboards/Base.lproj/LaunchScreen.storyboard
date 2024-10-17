@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImg" translatesAutoresizingMaskIntoConstraints="NO" id="R02-jQ-gfE">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="877"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="openAIBot" translatesAutoresizingMaskIntoConstraints="NO" id="5dS-pZ-0Pv">
+                                <rect key="frame" x="39" y="281" width="315" height="315"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5dS-pZ-0Pv" secondAttribute="height" multiplier="1:1" id="Yad-re-zQk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5dS-pZ-0Pv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="D1a-7I-wkY"/>
+                            <constraint firstItem="R02-jQ-gfE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Eaw-7a-qAY"/>
+                            <constraint firstItem="R02-jQ-gfE" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="RKr-vy-W8q"/>
+                            <constraint firstItem="5dS-pZ-0Pv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="gnf-Ag-Ivo"/>
+                            <constraint firstItem="5dS-pZ-0Pv" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.8" id="jJT-b2-6dg"/>
+                            <constraint firstItem="R02-jQ-gfE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="kf7-7p-GDn"/>
+                            <constraint firstItem="R02-jQ-gfE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pen-Gv-ZYb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backgroundImg" width="390" height="844"/>
+        <image name="openAIBot" width="512" height="512"/>
+    </resources>
+</document>
